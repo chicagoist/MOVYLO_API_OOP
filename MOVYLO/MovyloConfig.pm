@@ -55,7 +55,7 @@ package MOVYLO::MovyloConfig {
     has 'USERNAME_DB' => (
         is      => 'ro',
         writer => '_private_set_username_db',
-        default => sub {'legioner';},
+        default => sub {'user';},
     );
 
     has 'PASSWORD_DB' => (
